@@ -13,7 +13,7 @@ CXXINCS  = -I"G:/Dev-Cpp/TDM-GCC-64/include" -I"G:/Dev-Cpp/TDM-GCC-64/x86_64-w64
 BIN      = ../windows_toolz_2.0.exe
 CXXFLAGS = $(CXXINCS) -m32 -g3
 CFLAGS   = $(INCS) -m32 -g3
-DEL      = G:\Dev-Cpp\devcpp.exe INTERNAL_DEL
+DEL      = G:\Dev-Cpp\DevCpp.exe INTERNAL_DEL
 
 .PHONY: all all-before all-after clean clean-custom
 
