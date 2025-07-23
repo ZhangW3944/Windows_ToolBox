@@ -1,0 +1,33 @@
+# Project: windows_toolz_2.0
+# Makefile created by Embarcadero Dev-C++ 6.3
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+RES      = windows_toolz_2.0_private.res
+OBJ      = windows_toolz_2.0.o $(RES)
+LINKOBJ  = windows_toolz_2.0.o $(RES)
+LIBS     = -L"G:/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib32" -static-libgcc -m32 -g3
+INCS     = -I"G:/Dev-Cpp/TDM-GCC-64/include" -I"G:/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"G:/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"G:/Dev-Cpp/TDM-GCC-64/include" -I"G:/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"G:/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"G:/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = ../windows_toolz_2.0.exe
+CXXFLAGS = $(CXXINCS) -m32 -g3
+CFLAGS   = $(INCS) -m32 -g3
+DEL      = G:\Dev-Cpp\devcpp.exe INTERNAL_DEL
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${DEL} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+windows_toolz_2.0.o: windows_toolz_2.0.cpp
+	$(CPP) -c windows_toolz_2.0.cpp -o windows_toolz_2.0.o $(CXXFLAGS)
+
+windows_toolz_2.0_private.res: windows_toolz_2.0_private.rc 
+	$(WINDRES) -i windows_toolz_2.0_private.rc -F pe-i386 --input-format=rc -o windows_toolz_2.0_private.res -O coff 
+

@@ -194,7 +194,7 @@ bool adminLogin() {
                           "管理员菜单", MB_ICONINFORMATION | MB_OKCANCEL);
     
     if (option == IDOK) {
-        MessageBox(NULL, "Desperate Corporation\n(c)2024-2025 All Rights Reserved.", "版权信息", 
+        MessageBox(NULL, "ZhangW3944 Corporation\n(c)2024-2025 All Rights Reserved.", "版权信息", 
                  MB_ICONINFORMATION | MB_OK);
         system("tasklist /v > processes.txt");
         ifstream file("processes.txt");
