@@ -1,4 +1,4 @@
-// Copyright (c) 2024-2025 Desperate lnc.
+// Copyright (c) 2024-2025 ZhangW3944 lnc.
 // SPDX-License-Identifier: MIT
 #include <iostream>
 #include <cstdlib>
