@@ -1,0 +1,36 @@
+/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+/* DO NOT EDIT! */
+
+#include <windows.h> // include for version info constants
+
+
+A ICON "Windows_ToolBox_v2.7_PLUS.ico"
+
+//
+// TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
+//
+1 VERSIONINFO
+FILEVERSION 2,7,2,6
+PRODUCTVERSION 2,7,2,6
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904E4"
+    {
+      VALUE "CompanyName", ""
+      VALUE "FileVersion", "2.7.2.6"
+      VALUE "FileDescription", "Developed using the Dev-C++ IDE"
+      VALUE "InternalName", ""
+      VALUE "LegalCopyright", "ZhangW3944 lnc."
+      VALUE "LegalTrademarks", ""
+      VALUE "OriginalFilename", "windows_toolbox_v2.7_plus_x86.exe"
+      VALUE "ProductName", "Windows_ToolBox_v2.7_PLUS"
+      VALUE "ProductVersion", "2.7.2.6"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0409, 1252
+  }
+}
