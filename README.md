@@ -1,8 +1,8 @@
-# Windows ToolBox 2.7 PLUS
+# Windows ToolBox
 
 ## 📌 项目简介
 
-Windows ToolBox 2.7 PLUS 是一个功能强大的Windows系统工具箱，集成了多种实用功能，包括系统工具、实用程序、维护工具、网络工具等，采用C++开发，支持中英文双语切换。
+Windows ToolBox是一个功能强大的Windows系统工具箱，集成了多种实用功能，包括系统工具、实用程序、维护工具、网络工具等，采用C++开发，支持中英文双语切换。
 
 ## ✨ 主要功能
 
@@ -84,3 +84,90 @@ SPDX-License-Identifier: MIT
 ---
 
 > 💡 提示：本工具适用于Windows 7/8/8.1/10/11系统，最佳体验建议在(x86)管理员模式下运行
+
+
+# Windows ToolBox
+
+## 📌 Project Overview
+
+Windows ToolBox is a powerful Windows system utility toolkit that integrates various essential functions including system tools, utilities, maintenance tools, and network tools. Developed in C++, it supports both English and Chinese language interfaces.
+
+## ✨ Key Features
+
+### 🛠️ System Tools
+- Task Manager
+- Registry Editor
+- Device Manager
+- Disk Management
+- Services Manager
+
+### 📱 Utilities
+- Calculator
+- Notepad
+- Paint
+- Snipping Tool
+- Remote Desktop
+
+### 🔧 System Maintenance
+- Disk Cleanup
+- Disk Defragmentation
+- System File Checker
+- System Restore
+- Malware Scan
+
+### 🌐 Network Tools
+- IP Configuration
+- DNS Cache Management
+- Network Testing
+- Network Troubleshooting
+
+### ⚡ Power Management
+- Shutdown/Restart/Logoff
+- Scheduled Shutdown
+- Workstation Lock
+- Sleep Mode
+
+### 🔍 Advanced Features
+- System Information
+- Process Management
+- User Account Management
+- System Log Viewer
+- File Search
+
+## 🚀 How to Use
+
+1. **Download**: Clone this repository or download the release version
+2. **Run**: Execute `Windows_ToolBox_v2.7_PLUS.exe` directly
+3. **Operation**:
+   - Use number keys to select functions
+   - Press `L` to toggle between English/Chinese
+   - Press `H` for help
+   - Press `X` to exit
+
+## ⚠️ Important Notes
+
+- Some features require administrator privileges
+- Power management actions cannot be undone - use with caution
+- Password change function only modifies the program's internal password, not system accounts
+
+## 📜 Copyright Notice
+
+```
+Copyright (c) 2024-2025 ZhangW3944 Inc.
+SPDX-License-Identifier: MIT
+```
+
+This project is licensed under the **MIT License**. You are free to use, modify and distribute this software, provided you include the above copyright notice and license statement.
+
+**Prohibited**: Using this project for any illegal purposes or in commercial closed-source projects without proper attribution.
+
+## 🤝 Contribution Guidelines
+
+Pull requests and issue reports are welcome! Please feel free to contribute your improvements.
+
+## 📧 Contact
+
+For any questions, please contact: MicroCpro@hotmail.com
+---
+
+> 💡 Tip: This tool works on Windows 7/8/8.1/10/11 systems. For best experience, run in Administrator mode.
